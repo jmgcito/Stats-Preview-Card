@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+body{
+  background-color: hsl(233, 47%, 7%);
+}
+img{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  filter: brightness(40%) sepia(100%) saturate(800%) hue-rotate(242deg);
+  border-radius: 0px 5px 5px 0px;
+}
+.header{
+  text-align: left;
+  font-family: Inter, serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: hsl(0, 0%, 100%);
+}
+.slogan{
+  position: relative;
+  top: 45px;
+}
+.stats{
+  position: relative;
+  top: 115px;
+  font-size:23px;
+}
+.paragraph{
+  position: relative;
+  top: 50px;
+  line-height: 1.65;
+  text-align: left;
+  font-size: 15px;
+  font-family: Inter, serif;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.75);
+  
+}
+.noun{
+  position: relative;
+  top: 95px;
+  font-family: 'Lexend Deca', serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+.card{
+  text-align: center;
+  background-color: hsl(244, 38%, 16%);
+  width: 540px;
+  height: 446px;
+  position: absolute;
+  top: 30%;
+  right: 50%;
+  border-radius: 5px 0px 0px 5px;
+}
+.card-margins{
+  margin-left: 12.5%;
+  margin-right: 20%;
+}
+.purple{
+  color: hsl(277,64%, 61%);
+}
+.viewport{
+  background-color: hsl(233, 47%, 7%);
+  background-size: contain;
+}
+#stats2{
+  position: relative;
+  bottom: 88px;
+  left: 150px;
+}
+#stats3{
+  position: relative;
+  bottom: 176px;
+  left: 300px;
+}
